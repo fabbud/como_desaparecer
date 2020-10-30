@@ -325,3 +325,107 @@ body {
       font-size: 10px;
     }
   } */
+
+/* #### ESCRITAS #### */
+
+.escritas-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emdesenvolvimento {
+  margin: 30px 0px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.escrita-card {
+  background-color: #2abaff;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.livro {
+  height: 350px;
+}
+
+/* #### DESENHOS #### */
+
+.desenho-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emdesenvolvimento {
+  margin: 30px 0px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.desenho-card {
+  background-color: #2abaff;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.porta {
+  height: 350px;
+}
+
+/* #### BIO #### */
+
+.bio-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.div-foto {
+  background-color: #ea5959;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.ian {
+  height: 350px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 1);
+}
+
+.sobre-ian {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  text-align: left;
+  margin-right: 10px;
+  background-color: #ea5959;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 20px;
+}
