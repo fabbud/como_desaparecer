@@ -1,0 +1,46 @@
+/* Verde: 41d062
+Amarelo: fff748
+Laranja: ffbd50
+Rosa: ff77cb
+Azul: 2abaff
+Vermelho: EA5959 */
+
+/* ##### NAVBAR ##### */
+
+#navbar-ian {
+  background-color: #2abaff !important;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(255, 246, 72, 1) !important;
+  -moz-box-shadow: 0px 2px 5px 0px rgba(255, 246, 72, 1) !important;
+  box-shadow: 0px 2px 5px 0px rgba(255, 246, 72, 1) !important;
+  font-family: 'Economica', sans-serif !important;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  color: #fff748 !important;
+  font-size: 20px;
+}
+
+.simao {
+  font-weight: bolder !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #fff748 !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.fab,
+.fa-instagram {
+  font-size: 27px;
+  color: #ffffff;
+}
+
+.fa-instagram:hover {
+  font-size: 30px;
+  color: #fff748;
+}
