@@ -5,6 +5,10 @@ Rosa: ff77cb
 Azul: 2abaff
 Vermelho: EA5959 */
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* ##### NAVBAR ##### */
 
 #navbar-ian {
@@ -18,7 +22,8 @@ Vermelho: EA5959 */
 
 .navbar-brand {
   color: #fff748 !important;
-  font-size: 20px;
+  font-size: 22px;
+  margin-right: 50px;
 }
 
 .simao {
@@ -41,7 +46,6 @@ Vermelho: EA5959 */
 }
 
 .fa-instagram:hover {
-  font-size: 30px;
   color: #fff748;
 }
 
@@ -49,15 +53,15 @@ Vermelho: EA5959 */
   width: 80px;
 }
 
-.instagram-navbar:hover {
-  width: 100px;
+#insta-navbar {
+  margin-top: 8px;
+}
+
+.nav-item {
+  margin-right: 20px;
 }
 
 /* ##### HOMEPAGE BODY ##### */
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
 
 .titulo-livro {
   font-size: 30px;
