@@ -44,3 +44,280 @@ Vermelho: EA5959 */
   font-size: 30px;
   color: #fff748;
 }
+
+.instagram-navbar {
+  width: 80px;
+}
+
+.instagram-navbar:hover {
+  width: 100px;
+}
+
+/* ##### HOMEPAGE BODY ##### */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.titulo-livro {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+  color: #ffffff;
+  letter-spacing: 2px;
+  padding: 15px 0px;
+  margin: 0px;
+}
+
+.div-img {
+  margin: 20px 5px 0px 0px;
+  height: 500px;
+}
+
+.capa-livro {
+  width: auto;
+  height: 500px;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: #ea5959;
+  border-radius: 20px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.flex-homepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.div-text {
+  background-color: #ea5959;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.desc-livro {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0px 20px;
+  text-align: justify;
+}
+
+.compre {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #2abaff;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(255, 246, 72, 1);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(255, 246, 72, 1);
+  box-shadow: 1px 1px 1px 0px rgba(255, 246, 72, 1);
+  border: 0px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  font-family: 'Economica', sans-serif;
+}
+
+.compre:hover {
+  color: #fff748;
+}
+
+.texto-plataformas {
+  font-size: 12px;
+  margin: 30px 0px 0px 0px;
+}
+
+.plataformas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.americanas {
+  height: 30px;
+  margin: 15px;
+}
+
+.shoptime {
+  width: 140px;
+  margin: 15px;
+}
+
+.amazon {
+  width: 110px;
+  margin: 15px;
+}
+
+.submarino {
+  width: 120px;
+  margin: 15px;
+}
+
+.lux {
+  height: 40px;
+  margin: 15px;
+}
+
+/* ##### FOOTER ##### */
+
+.site-footer {
+  background-color: #2abaff;
+  -webkit-box-shadow: 0px -2px 5px 0px rgba(255, 246, 72, 1);
+  -moz-box-shadow: 0px -2px 5px 0px rgba(255, 246, 72, 1);
+  box-shadow: 0px -2px 5px 0px rgba(255, 246, 72, 1);
+  width: 100%;
+  margin: 0px;
+}
+
+.titulo-footer {
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 30px 0px 15px 40px;
+  letter-spacing: 1px;
+}
+
+.footer-text {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  font-size: 17px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-text li a:link,
+.footer-text li a:active,
+.footer-text li a:visited {
+  text-decoration: none;
+  list-style: none;
+  color: #fff !important;
+  padding-left: 5px;
+}
+
+.footer-text li a:hover {
+  color: #fff748 !important;
+}
+
+.fas,
+.fa-envelope {
+  color: #fff748;
+  font-size: 20px;
+}
+
+#fa-insta-footer {
+  color: #fff748;
+  font-size: 25px;
+  margin: 5px 5px 0px 0px;
+}
+
+.icon-limit {
+  width: 25px;
+  display: inline;
+  text-align: center;
+  margin: 0px -5px 5px 40px;
+}
+
+.insta-icon-limit {
+  width: 25px;
+  display: inline;
+  text-align: center;
+  margin: 0px -5px 5px 35px;
+}
+
+.copyright-text {
+  margin: 10px 0px 0px 40px;
+  padding: 0px 0px 10px 0px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff748;
+}
+
+.instagram-footer {
+  color: #fff748;
+  font-size: 20px;
+  margin: 0px 10px 0px 28px;
+}
+
+/* @media (max-width: 768px) {
+    .footer-text {
+      text-align: center;
+      font-size: 15px;
+    }
+  
+    .site-footer h6 {
+      text-align: center;
+      margin: 10px 0px 15px 0px;
+    }
+  
+    .site-footer ul {
+      margin: 0px;
+      padding: 0px;
+    }
+  
+    .footer-text {
+      margin: 0px;
+      padding: 0px;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .social-icons-div {
+      margin-top: 20px;
+    }
+  
+    .instagram-footer {
+      font-size: 20px;
+    }
+  
+    .icon-limit {
+      margin: 0px 0px 5px 0px;
+    }
+  
+    .copyright-text {
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .footer-text {
+      font-size: 13px;
+    }
+  
+    .titulo-footer {
+      font-size: 1em;
+    }
+  
+    .social-icons-div {
+      margin-top: 20px;
+    }
+  
+    .instagram-footer {
+      font-size: 20px;
+    }
+  
+    .icon-limit {
+      width: 30px;
+    }
+  
+    .copyright-text {
+      font-size: 10px;
+    }
+  } */

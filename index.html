@@ -30,9 +30,16 @@
     />
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/43711244f7.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
+
     <!-- NAVBAR -->
+   
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-ian">
       <a class="navbar-brand" href="#">IAN<span class="simao">SIMÃO</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,280 +62,107 @@
         </ul>
         <span class="navbar-text">
           <a 
-            href="https://www.instagram.com/como.desaparecer/" 
-            target="_blank"
-            rel="noopener noreferrer">
-            <i class="fab fa-instagram"></i>
+          href="https://www.instagram.com/como.desaparecer/" 
+          target="_blank"
+          rel="noopener noreferrer">
+          <img class="instagram-navbar" src="./assets/instagram_branco.png" onmouseover="hover(this);" onmouseout="unhover(this);" />
+          <i class="fab fa-instagram"></i>
           </a>
         </span>
       </div>
     </nav>
-    
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="supernav">
-      <a href="#" class="navbar-brand">
-        <img src="img/logo.png" alt="Find the precious logo">
-      </a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav ml-auto" id="menu-ul">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Fellows</a>
-          </li>
-          <li class="nav-item">
-            <a href="ring.html" class="nav-link">The Ring</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Reward</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Hunters</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Join</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact us</a>
-          </li>
-        </ul>
-      </div>
-    </nav> -->
-      <!-- FELLOWS TITLE -->
-      <div class="row">
-        <div class="col-12 text-left fellows">
-          <h2 class="h2-normal"><span class="symbol">ij </span>Fellows wanted dead <span class="small-text">(or alive if you want to eat them later)</span><span class="symbol"> ij</span></h2>
-        </div>
-      </div>
-      <!-- MENU ACIMA DOS CARDS -->
-      <div class="row menu-cards-div">
-        <div class="col-4 text-center menu-cards">
-          <h4 class="menu-cards-li">Most wanted</h4>
-        </div>
-        <div class="col-4 text-center menu-cards">
-          <h4 class="menu-cards-li-selected"><span>b </span>Most dangerous<span> b</span></h4>
-        </div>
-        <div class="col-4 text-center menu-cards">
-          <h4 class="menu-cards-li">Already captured</h4>
-        </div>
-      </div>
-      <!-- CARDS -->
-      <div class="row  d-flex allcards-div">
-        <div class="col-md-6 col-lg-4">
-          <div class="card card1">
-            <img class="card-img-top  img-fluid" src="img/gandalf.png">
-            <div class="card-img-overlay text-center">
-              <div class="allspans">
-                <span class="rewards">reward<br>
-                <span class="amount">1000</span> golden coins</span>
-              </div>
-              <div class="name-wanted-div">
-                <span class="name-wanted">Gandalf</span>
-              </div>
-            </div>
-            <div class="card-body">
-              <p class="card-text text-card">a very dangerous wizard, balrog killer...</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card card2">
-            <img class="card-img-top img-fluid" src="img/aragorn.png">
-            <div class="card-img-overlay text-center">
-              <div class="allspans">
-                <span class="rewards">reward<br>
-                <span class="amount">800</span> golden coins</span>
-              </div>
-              <div class="name-wanted-div">
-                <span class="name-wanted">Aragorn</span>
-              </div>
-            </div>
-            <div class="card-body">
-              <p class="card-text text-card">sauron's finger says him his sword is dangerous...</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card card3">
-            <img class="card-img-top img-fluid dead" src="img/gimli.png">
-            <div class="card-img-overlay text-center">
-              <div class="name-status-div">
-                <span class="name-status">dead</span>
-              </div>  
-              <div class="name-dead-div">
-                <span class="name-dead"><span class="strike">Gimli</span></span>
-              </div>
-            </div>
-            <div class="card-body">
-              <p class="card-text text-card">a dwarf, with a beard and an axe...</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- I HAVE CAPTURED ONE OF THEM -->
-      <div class="row captured first-row-captured">
-        <div class="col-12">
-          <h2 class="h2-normal"><span class="symbol">ij </span>I have captured one of them, how to get my reward? <span class="symbol"> ij</span></h2>
-        </div>
-      </div>
-      <div class="row captured">
-        <div class="col-9">
-          <p class="captured-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce velit dolor, gravida vel ultrices a, dapibus malesuada massa. Cras et dignissim sapien, non bibendum neque. Nam nec elit vitae ligula blandit finibus quis in orci. Phasellus molestie nulla vel congue volutpat. Cras et dignissim sapien, non bibendum neque.</p>
-        </div>
-        <div class="col-3">
-          <img class="coin" src="img/coin_sauron.png" alt="Coin Sauron">
-        </div>
-      </div>
-        <div class="row captured">
-          <div class="col-12 text-center">
-            <button type="submit" class="captured-button">Contact us</button>
-          </div>
-        </div>
-      </div>
-      <!-- BEST HUNTERS -->
-      <div class="row best-hunters first-row-best-hunters">
-        <div class="col-lg-12">
-          <h2 class="h2-normal"><span class="symbol">ij </span>Our best hunters <span class="symbol"> ij</span></h2>
-        </div>
-      </div>
-      <div class="row hunters-cards">
-        <div class="col-3 col-sm-3 col-md-3 col-lg-2 hunter-img-div">
-          <img src="img/hunter1.png" alt="hunter1">
-        </div>
-        <div class="col-9 col-sm-9 col-md-9 col-lg-4">
-          <p class="name-hunter">elveskiller22</p>
-          <p class="captures-hunter">2 captures - <span class="profile">profile</span></p>
-          <button type="submit" class="hunters-icon"><img src="img/ring.png" alt="ring"> <span class="num-hates">12 </span>hates</button>
-        </div>
-        <div class="col-3 col-sm-3 col-md-3 col-lg-2 hunter-img-div">
-          <img src="img/hunter2.png" alt="hunter2">
-        </div>
-        <div class="col-9 col-sm-9 col-md-9 col-lg-4">
-          <p class="name-hunter">goblin45</p>
-          <p class="captures-hunter">1 capture - <span class="profile">profile</span></p>
-          <button type="submit" class="hunters-icon"><img src="img/ring.png" alt="ring"> <span class="num-hates">18 </span>hates</button>
-        </div>
-      </div>   
-      <!-- ABOUT THE RING -->
-      <div class="about-ring-div">
-        <h2 class="h2-normal"><span class="symbol">ij </span>About the ring <span class="symbol"> ij</span></h2>
-        <div class="ring-capabilities">
-          <h5 class="capabilities">Ring capabilities</h5>
-          <div class="capabilities-body">
-            <p class="title-table"> What can our master Sauron do with his ring?</p>
-            <!-- TABLE -->
-            <table class="table table-capabilities">
-              <thead>
-                <tr>
-                  <th scope="col">Feature</th>
-                  <th scope="col">Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td scope="row">Main</td>
-                  <td>Rule them all!</td>
-                </tr>
-                <tr>
-                  <td scope="row">Invisibility</td>
-                  <td>You can't see me</td>
-                </tr>
-                <tr>
-                  <td scope="row">Power</td>
-                  <td>Destroy the world</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>   
-        </div>
-        <div class="ring-awesome">
-          <h5 class="awesome">Why the ring is awesome</h5>
-          <div class="row awesome-body">
-            <div class="col-8">
-              <p class="title-table">my preciooouuuussssss!!!! err, errr! we want our preciooouuuussssss!!!</p>
-            </div>
-            <div class="col-4 gollum">
-              <img class="gollum-img" src="img/gollum1.png" alt="gollum">
-            </div>
-            <!-- <div class="col-1"></div>
-              <p class="title-table">- Gollum</p>
-            </div> -->
-          </div>   
-        </div>
-      </div>
-    </div> <!-- CONTAINER CLOSING -->
 
-      <!-- FORM -->
-      <form>
-        <div class="row">
-          <div class="col-12">
-            <h2 id="contacts">Contact us</h2>
-          </div>
+    <!-- ##### HOMEPAGE BODY ##### -->
+
+    <div class="flex-homepage">
+      <div class="div-img">
+        <img
+          class="capa-livro"
+          src="./assets/livro.png"
+          alt="capa do livro"
+        />
+      </div>
+      <div class="div-text">
+        <h1 class="titulo-livro">Como Desaparecer Completamente</h1>
+        <p class="desc-livro">
+        Términos, recomeços e ressignificações. Oscilando entre o cérebro e o coração, as poesias representam a difícil tentativa de encontrar um equilíbrio. É fácil perceber os altos e baixos, já que o livro funciona como uma linha do tempo. Esse livro tem como objetivo criar uma conexão com todos que tem dificuldade em externar seus sentimentos, o abraço por finalmente serem representadas e o alívio por ver seus sentimentos registrados em uma obra. Afinal, só gostamos de poesias que nós mesmos escreveríamos.
+        </p>
+        <a href="https://sacola.pagseguro.uol.com.br/cab9a946-fe32-4a69-b1bd-bbb0e65da539" target="_blank" rel="noopener noreferrer">
+          <button class="compre">Compre do Autor</button>
+        </a>
+        <p class="texto-plataformas">Também disponível nas lojas:</p>
+        <div class="plataformas">
+          <a href="https://www.americanas.com.br/produto/2207351334?pfm_carac=como-desaparecer&pfm_index=5&pfm_page=search&pfm_pos=grid&pfm_type=search_page" target="_blank" rel="noopener noreferrer">
+            <img
+            class="americanas"
+            src="assets/americanas.png"
+            alt="logo das lojas americanas"
+            />
+          </a>
+          <a href="https://www.editoralux.com.br/loja/produto/como-desaparecer-completamente/" target="_blank" rel="noopener noreferrer">
+            <img
+            class="lux"
+            src="assets/lux.jpg"
+            alt="logo da editora lux"
+            />
+          </a>
+          <a href="https://www.shoptime.com.br/produto/2207351334/como-desaparecer-completamente?pfm_carac=como%20desaparecer&pfm_index=3&pfm_page=search&pfm_pos=grid&pfm_type=search_page" target="_blank" rel="noopener noreferrer">
+            <img
+            class="shoptime"
+            src="assets/shoptime.png"
+            alt="logo do shoptime"
+            />
+          </a>
+          <a href="https://www.amazon.com.br/COMO-DESAPARECER-COMPLETAMENTE-Ian-Sim%C3%A3o/dp/6586924383/ref=sr_1_9?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=5BNSKOURY4SC&dchild=1&keywords=como+desaparecer+completamente&qid=1603355237&sprefix=como+desaparecer%2Caps%2C484&sr=8-9" target="_blank" rel="noopener noreferrer">
+            <img
+            class="amazon"
+            src="assets/amazon.png"
+            alt="logo da amazon"
+            />
+          </a>
+          <a href="https://www.submarino.com.br/produto/2207351334/como-desaparecer-completamente?pfm_carac=como%20desaparecer&pfm_index=3&pfm_page=search&pfm_pos=grid&pfm_type=search_page" target="_blank" rel="noopener noreferrer">
+            <img
+            class="submarino"
+            src="assets/sub.png"
+            alt="logo do submarino"
+            />
+          </a>
         </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-10">
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@">
-            </div>
-            <div class="col-1"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-10">
-            <div class="form-group">
-              <input type="home" class="form-control" id="exampleFormControlInput1" placeholder="&#8962;">
-            </div>
-            <div class="col-1"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-10">
-            <div class="form-group">
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>I have seen one of them</option>
-                <option>Others</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-1"></div>
-        </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-10">
-            <div class="form-group">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="your message"></textarea>
-            </div>
-          </div>
-          <div class="col-1"></div>
-        </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-10 text-right">
-            <button type="submit" class="btn btn-secondary" id="submit-button">Send</button>
-          </div>
-          <div class="col-1"></div>
-        </div>
-      </form>
-     <!-- CLOSING CONTAINER -->
+      </div>
+    </div>
+
       <!-- FOOTER -->
-    <footer id="footer">
-      <ul>
-        <li>About</li>
-        <li>Fellows</li> 
-        <li>Join our army</li>   
-        <li>FAQ</li>
-        <li>Reward conditions</li>
-        <li>Legal mentions</li>
-        <li>Sauron4Ever.com</li>
-        <li>Follow him also on twitter</li>
+
+    <footer class="site-footer">
+      <h6 class="titulo-footer">Entre em contato</h6>
+      <ul class="footer-text">
+        <li>
+          <div class="icon-limit">
+            <span>
+              <i class="fas fa-envelope"></i>
+              <a class="link" href="mailto:CDCLivro@gmail.com">
+              CDCLivro@gmail.com
+              </a>
+            </span>
+          </div>
+        </li>
+        <li>
+            <a
+              class="insta-icon-limit"
+              href="https://www.instagram.com/como.desaparecer/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>
+                <i class="fab fa-instagram" id="fa-insta-footer"></i>
+                Siga no Instagram!
+              </span>
+            </a>
+          </li>
       </ul>
+        <div class="copyright-div">
+          <p class="copyright-text"> &copy; 2020 IAN<span class="simao">SIMÃO</span></p>
+        </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/43711244f7.js" crossorigin="anonymous"></script>
   </body>
   </html>
