@@ -1,3 +1,5 @@
+/*  ##### C O R E S  O F I C I A I S ##### */
+
 /* Verde: 41d062
 Amarelo: fff748
 Laranja: ffbd50
@@ -5,11 +7,13 @@ Rosa: ff77cb
 Azul: 2abaff
 Vermelho: EA5959 */
 
+/* #####  G E R A L  ##### */
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* ##### NAVBAR ##### */
+/* #####  N A V B A R  ##### */
 
 #navbar-ian {
   background-color: #2abaff !important;
@@ -61,25 +65,24 @@ body {
   margin-right: 20px;
 }
 
-/* ##### HOMEPAGE BODY ##### */
+/* #####  H O M E P A G E  B O D Y  ##### */
 
-.titulo-livro {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  font-family: 'Economica', sans-serif;
-  color: #ffffff;
-  letter-spacing: 2px;
-  padding: 15px 0px;
-  margin: 0px;
+.flex-homepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 60px 0px;
 }
 
 .div-img {
-  margin: 20px 5px 0px 0px;
-  height: 500px;
+  margin: 0px 5px 0px 0px;
 }
 
 .capa-livro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: auto;
   height: 500px;
   object-fit: cover;
@@ -90,14 +93,6 @@ body {
   padding: 10px;
 }
 
-.flex-homepage {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
 .div-text {
   background-color: #ea5959;
   width: 500px;
@@ -106,7 +101,17 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
-  margin-top: 20px;
+}
+
+.titulo-livro {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+  color: #ffffff;
+  letter-spacing: 2px;
+  padding: 15px 0px;
+  margin: 0px;
 }
 
 .desc-livro {
@@ -152,6 +157,11 @@ body {
   margin: 15px;
 }
 
+.lux {
+  height: 40px;
+  margin: 15px;
+}
+
 .shoptime {
   width: 140px;
   margin: 15px;
@@ -167,12 +177,7 @@ body {
   margin: 15px;
 }
 
-.lux {
-  height: 40px;
-  margin: 15px;
-}
-
-/* ##### FOOTER ##### */
+/* #####  F O O T E R  ##### */
 
 .site-footer {
   background-color: #2abaff;
@@ -197,10 +202,13 @@ body {
   text-align: left;
   margin: 0px;
   padding: 0px;
-  font-size: 17px;
   list-style: none;
   text-decoration: none;
   font-size: 12px;
+}
+
+.footer-text li {
+  margin-bottom: 10px;
 }
 
 .footer-text li a:link,
@@ -219,23 +227,17 @@ body {
 .fas,
 .fa-envelope {
   color: #fff748;
-  font-size: 20px;
+  font-size: 22px;
+  margin-right: 5px;
 }
 
 #fa-insta-footer {
   color: #fff748;
   font-size: 25px;
-  margin: 5px 5px 0px 0px;
+  margin-right: 5px;
 }
 
-.icon-limit {
-  width: 25px;
-  display: inline;
-  text-align: center;
-  margin: 0px -5px 5px 40px;
-}
-
-.insta-icon-limit {
+.insta-icon-link {
   width: 25px;
   display: inline;
   text-align: center;
@@ -256,77 +258,11 @@ body {
   margin: 0px 10px 0px 28px;
 }
 
-/* @media (max-width: 768px) {
-    .footer-text {
-      text-align: center;
-      font-size: 15px;
-    }
-  
-    .site-footer h6 {
-      text-align: center;
-      margin: 10px 0px 15px 0px;
-    }
-  
-    .site-footer ul {
-      margin: 0px;
-      padding: 0px;
-    }
-  
-    .footer-text {
-      margin: 0px;
-      padding: 0px;
-    }
-  
-    .social-icons {
-      justify-content: center;
-    }
-  
-    .social-icons-div {
-      margin-top: 20px;
-    }
-  
-    .instagram-footer {
-      font-size: 20px;
-    }
-  
-    .icon-limit {
-      margin: 0px 0px 5px 0px;
-    }
-  
-    .copyright-text {
-      text-align: center;
-      margin: 0px;
-      padding: 0px;
-    }
-  }
-  
-  @media (max-width: 400px) {
-    .footer-text {
-      font-size: 13px;
-    }
-  
-    .titulo-footer {
-      font-size: 1em;
-    }
-  
-    .social-icons-div {
-      margin-top: 20px;
-    }
-  
-    .instagram-footer {
-      font-size: 20px;
-    }
-  
-    .icon-limit {
-      width: 30px;
-    }
-  
-    .copyright-text {
-      font-size: 10px;
-    }
-  } */
+.mail-icon-link {
+  margin-left: 35px;
+}
 
-/* #### ESCRITAS #### */
+/* #####  E S C R I T A S  ##### */
 
 .escritas-div {
   display: flex;
@@ -356,7 +292,7 @@ body {
   height: 350px;
 }
 
-/* #### DESENHOS #### */
+/* #####  D E S E N H O S  ##### */
 
 .desenho-div {
   display: flex;
@@ -386,7 +322,7 @@ body {
   height: 350px;
 }
 
-/* #### BIO #### */
+/* #####  B I O  ##### */
 
 .bio-div {
   display: flex;
@@ -428,4 +364,310 @@ body {
   height: 400px;
   padding: 20px;
   border-radius: 20px;
+}
+
+/* #####  M E D I A  Q U E R R I E S #####  */
+
+@media (max-width: 909px) {
+  /* ###  I N D E X  ### */
+
+  /* ##  H O M E P A G E  B O D Y  ## */
+  .flex-homepage {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+  }
+
+  .div-img {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .capa-livro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .div-text {
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .titulo-livro {
+    font-size: 30px;
+  }
+
+  .desc-livro {
+    font-size: 14px;
+  }
+
+  .plataformas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .americanas {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .lux {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .shoptime {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .amazon {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .submarino {
+    margin: 20px 0px 0px 0px;
+  }
+
+  /* ##  F O O T E R  ## */
+  .site-footer {
+    position: initial;
+    margin-top: 30px;
+  }
+
+  .titulo-footer {
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+  }
+
+  .footer-text li {
+    text-align: center;
+  }
+
+  .insta-icon-link {
+    margin: 0px;
+  }
+
+  .copyright-text {
+    margin: 0px;
+    padding: 20px 0px 15px 0px;
+    font-size: 10px;
+  }
+
+  .mail-icon-link {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* ###  I N D E X  ### */
+
+  /* ##  H O M E P A G E  B O D Y  ## */
+
+  .flex-homepage {
+    margin: 20px 0px;
+  }
+
+  .div-img {
+    width: 350px;
+    height: auto;
+  }
+
+  .capa-livro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .div-text {
+    width: 350px;
+  }
+
+  .titulo-livro {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .desc-livro {
+    font-size: 13px;
+  }
+
+  .compre {
+    font-size: 20px;
+  }
+
+  .americanas {
+    height: 25px;
+    margin: 15px 0px 0px 0px;
+  }
+
+  .lux {
+    height: 32px;
+    margin: 15px 0px 0px 0px;
+  }
+
+  .shoptime {
+    width: 120px;
+    margin: 15px 0px 0px 0px;
+  }
+
+  .amazon {
+    width: 95px;
+    margin: 15px 0px 0px 0px;
+  }
+
+  .submarino {
+    width: 105px;
+    margin: 15px 0px 0px 0px;
+  }
+
+  /* ##  F O O T E R  ## */
+
+  .site-footer {
+    margin-top: 30px;
+  }
+
+  .titulo-footer {
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+  }
+
+  .footer-text li {
+    text-align: center;
+  }
+
+  .insta-icon-link {
+    margin: 0px;
+  }
+
+  .copyright-text {
+    margin: 0px;
+    padding: 20px 0px 15px 0px;
+    font-size: 10px;
+  }
+
+  .mail-icon-link {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 359px) {
+  /* ###  I N D E X  ### */
+
+  /* ##  H O M E P A G E  B O D Y  ## */
+  .flex-homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-img {
+    width: 270px;
+  }
+
+  .capa-livro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .div-text {
+    width: 270px;
+  }
+
+  .titulo-livro {
+    font-size: 25px;
+  }
+
+  .desc-livro {
+    font-size: 13px;
+  }
+
+  .compre {
+    font-size: 20px;
+  }
+
+  .plataformas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .americanas {
+    height: 22px;
+    margin: 15px 0px 0px 0px;
+  }
+
+  .lux {
+    height: 25px;
+    margin: 15px 0px 0px 0px;
+  }
+
+  .shoptime {
+    width: 100px;
+    margin: 15px 0px 0px 0px;
+  }
+
+  .amazon {
+    width: 80px;
+    margin: 15px 0px 0px 0px;
+  }
+
+  .submarino {
+    width: 90px;
+    margin: 15px 0px 0px 0px;
+  }
+
+  /* ##  F O O T E R  ## */
+  .site-footer {
+    margin-top: 30px;
+  }
+
+  .titulo-footer {
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+  }
+
+  .footer-text li {
+    text-align: center;
+  }
+
+  .insta-icon-link {
+    margin: 0px;
+  }
+
+  .copyright-text {
+    margin: 0px;
+    padding: 20px 0px 15px 0px;
+    font-size: 10px;
+  }
+
+  .mail-icon-link {
+    margin-left: 0px;
+  }
 }
