@@ -271,10 +271,10 @@ body {
   align-items: center;
 }
 
-.emdesenvolvimento {
+.escritas-div .emdesenvolvimento {
   margin: 30px 0px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 25px;
 }
 
 .escrita-card {
@@ -339,13 +339,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 20px;
   height: 400px;
   border-radius: 20px;
 }
 
 .ian {
-  height: 350px;
+  width: 350px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 1);
   -moz-box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 1);
@@ -466,6 +467,22 @@ body {
   .mail-icon-link {
     margin-left: 0px;
   }
+
+  /* ## B I O ## */
+
+  .bio-div {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+
+  .div-foto {
+    margin-bottom: 20px;
+  }
+
+  .sobre-ian {
+    text-align: justify;
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 599px) {
@@ -564,6 +581,54 @@ body {
 
   .mail-icon-link {
     margin-left: 0px;
+  }
+
+  /* ## B I O ## */
+
+  .div-foto {
+    width: 350px;
+  }
+
+  .ian {
+    width: 320px;
+  }
+
+  .sobre-ian {
+    width: 350px;
+    height: 350px;
+    font-size: 15px;
+  }
+
+  /* #####  E S C R I T A S  ##### */
+
+  .escritas-div .emdesenvolvimento {
+    margin: 20px 0px;
+    font-size: 20px;
+  }
+
+  .escrita-card {
+    width: 350px;
+    height: 350px;
+  }
+
+  .livro {
+    height: 330px;
+  }
+
+  /* #####  D E S E N H O S  ##### */
+
+  .desenho-div .emdesenvolvimento {
+    margin: 20px 0px;
+    font-size: 20px;
+  }
+
+  .desenho-card {
+    width: 350px;
+    height: 350px;
+  }
+
+  .porta {
+    height: 330px;
   }
 }
 
@@ -669,5 +734,52 @@ body {
 
   .mail-icon-link {
     margin-left: 0px;
+  }
+
+  /* ## B I O ## */
+
+  .div-foto {
+    width: 260px;
+    height: 260px;
+  }
+
+  .ian {
+    width: 200px;
+  }
+
+  .sobre-ian {
+    width: 260px;
+    height: 350px;
+    font-size: 13px;
+  }
+
+  /* #####  E S C R I T A S  ##### */
+
+  .escritas-div .emdesenvolvimento {
+    font-size: 16px;
+  }
+
+  .escrita-card {
+    width: 260px;
+    height: 260px;
+  }
+
+  .livro {
+    height: 240px;
+  }
+
+  /* #####  D E S E N H O S  ##### */
+
+  .desenho-div .emdesenvolvimento {
+    font-size: 16px;
+  }
+
+  .desenho-card {
+    width: 260px;
+    height: 260px;
+  }
+
+  .porta {
+    height: 240px;
   }
 }
