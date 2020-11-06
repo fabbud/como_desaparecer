@@ -296,20 +296,16 @@ body {
 
 .desenho-div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.emdesenvolvimento {
-  margin: 30px 0px;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
 .desenho-card {
+  margin: 30px 10px;
   background-color: #2abaff;
-  width: 400px;
+  width: 300px;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -318,8 +314,23 @@ body {
   border-radius: 20px;
 }
 
-.porta {
-  height: 350px;
+.titulo-desenho {
+  margin: 0px;
+  padding-top: 20px;
+  font-family: 'Rock Salt', cursive;
+  font-size: 20px;
+}
+
+.desenho-porta {
+  height: 300px;
+}
+
+.desenho-livro {
+  height: 300px;
+}
+
+.desenho-nosmesmos {
+  height: 300px;
 }
 
 /* #####  B I O  ##### */
