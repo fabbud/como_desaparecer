@@ -194,7 +194,8 @@ body {
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
-  margin: 30px 0px 15px 40px;
+  margin: 0px 0px 15px 40px;
+  padding-top: 40px;
   letter-spacing: 1px;
 }
 
@@ -300,10 +301,11 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: #2abaff;
 }
 
 .desenho-card {
-  margin: 30px 10px;
+  margin: 50px 20px;
   width: 300px;
   height: 400px;
   display: flex;
@@ -311,14 +313,8 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-}
-
-.desenho-card:hover {
+  background-color: #ffffff;
   border-radius: 20px;
-  border: 2px solid #2abaff;
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(42, 188, 255, 1);
-  -moz-box-shadow: 0px 0px 20px 0px rgba(42, 188, 255, 1);
-  box-shadow: 0px 0px 20px 0px rgba(42, 188, 255, 1);
 }
 
 .titulo-desenho {
