@@ -76,34 +76,117 @@
       </div>
     </nav>
 
-    <!-- ##### DESENHOS BODY ##### -->
+    <!-- ##### DESENHOS BODY ##### --> 
+		
+		<!-- #### PORTA - DESENHO #### -->
+		<div class="desenho-div">
+			<div class="desenho-card">
+				<img
+					data-toggle="modal" 
+					data-target="#porta"
+					class="desenho-porta desenho-geral"
+					src="assets/desenho_porta.png"
+					alt="desenho de uma porta"
+				/>
+				<p class="titulo-desenho">Porta</p>
+			</div>
 
-    <div class="desenho-div">
-      <div class="desenho-card">
-        <img
-            class="desenho-porta"
-            src="assets/desenho_porta.png"
-            alt="desenho de uma porta"
-          />
-        <p class="titulo-desenho">Porta</p>
-      </div>
-      <div class="desenho-card">
-        <img
-            class="desenho-livro"
-            src="assets/desenho_livro.png"
-            alt="desenho de um livro"
-          />
-        <p class="titulo-desenho">Livro</p>
-      </div>
-      <div class="desenho-card">
-        <img
-            class="desenho-nosmesmos"
-            src="assets/desenho_nosmesmos.png"
-            alt="desenho de quatro mãos se tocando"
-          />
-        <p class="titulo-desenho">Nós mesmos</p>
-      </div>
-    </div>
+		<!-- #### LIVRO - DESENHO #### -->
+			<div class="desenho-card">
+				<img
+					data-toggle="modal" 
+					data-target="#livro"
+					class="desenho-livro desenho-geral"
+					src="assets/desenho_livro.png"
+					alt="desenho de um livro"
+				/>
+				<p class="titulo-desenho">Livro</p>
+			</div>
+
+			<!-- #### NÓS MESMOS - DESENHO #### -->
+			<div class="desenho-card">
+				<img
+					data-toggle="modal" 
+					data-target="#nosmesmos"
+					class="desenho-nosmesmos desenho-geral"
+					src="assets/desenho_nosmesmos.png"
+					alt="desenho de quatro mãos se tocando"
+				/>
+				<p class="titulo-desenho">Nós mesmos</p>
+			</div>
+		</div>
+
+<!-- Modal PORTA-->
+<div class="modal fade" id="porta" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title modal-titulo" id="staticBackdropLabel">Porta</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<img
+				class="desenho-modal"
+				src="assets/desenho_porta.png"
+				alt="desenho de uma porta"
+				/>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary btn-customizado" data-dismiss="modal">Fechar</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal LIVRO-->
+<div class="modal fade" id="livro" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title modal-titulo" id="staticBackdropLabel">Livro</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<img
+				class="desenho-modal"
+				src="assets/desenho_livro.png"
+				alt="desenho de um livro"
+				/>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary btn-customizado" data-dismiss="modal">Fechar</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal NOS MESMOS-->
+<div class="modal fade" id="nosmesmos" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title modal-titulo" id="staticBackdropLabel">Nós mesmos</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<img
+				class="desenho-modal"
+				src="assets/desenho_nosmesmos.png"
+				alt="desenho de quatro mãos se tocando"
+				/>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary btn-customizado" data-dismiss="modal">Fechar</button>
+			</div>
+		</div>
+	</div>
+</div>
 
     <!-- FOOTER -->
 

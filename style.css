@@ -310,7 +310,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.desenho-card:hover {
   border-radius: 20px;
+  border: 2px solid #2abaff;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(42, 188, 255, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(42, 188, 255, 1);
+  box-shadow: 0px 0px 20px 0px rgba(42, 188, 255, 1);
 }
 
 .titulo-desenho {
@@ -330,6 +338,30 @@ body {
 
 .desenho-nosmesmos {
   height: 300px;
+}
+
+.desenho-modal {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.modal-titulo {
+  font-family: 'Rock Salt', cursive;
+}
+
+.modal-content {
+  align-items: center;
+}
+
+.btn-customizado {
+  background-color: #2abaff !important;
+  border-color: #2abaff !important;
+}
+
+.btn-customizado:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(42, 188, 255, 1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(42, 188, 255, 1);
+  box-shadow: 0px 0px 5px 0px rgba(42, 188, 255, 1);
 }
 
 /* #####  B I O  ##### */
