@@ -320,8 +320,8 @@ body {
 .titulo-desenho {
   margin: 0px;
   padding-top: 20px;
-  font-family: 'Rock Salt', cursive;
-  font-size: 20px;
+  font-family: 'Economica', sans-serif;
+  font-size: 25px;
 }
 
 .desenho-porta {
@@ -336,13 +336,17 @@ body {
   height: 300px;
 }
 
+.desenho-custom {
+  height: 300px;
+}
+
 .desenho-modal {
   max-height: 400px;
   max-width: 400px;
 }
 
 .modal-titulo {
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Economica', sans-serif;
 }
 
 .modal-content {
