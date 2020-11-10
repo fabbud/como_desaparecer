@@ -305,7 +305,7 @@ body {
 }
 
 .desenho-card {
-  margin: 50px 20px;
+  margin: 50px 15px 0px 15px;
   width: 300px;
   height: 400px;
   display: flex;
@@ -317,23 +317,15 @@ body {
   border-radius: 20px;
 }
 
+.desenho-card:last-child {
+  margin-bottom: 50px;
+}
+
 .titulo-desenho {
   margin: 0px;
   padding-top: 20px;
   font-family: 'Economica', sans-serif;
   font-size: 25px;
-}
-
-.desenho-porta {
-  height: 300px;
-}
-
-.desenho-livro {
-  height: 300px;
-}
-
-.desenho-nosmesmos {
-  height: 300px;
 }
 
 .desenho-custom {
