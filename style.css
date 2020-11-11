@@ -302,10 +302,11 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #2abaff;
+  padding-bottom: 30px;
 }
 
 .desenho-card {
-  margin: 50px 15px 0px 15px;
+  margin: 30px 15px 0px 15px;
   width: 300px;
   height: 400px;
   display: flex;
@@ -315,10 +316,6 @@ body {
   cursor: pointer;
   background-color: #ffffff;
   border-radius: 20px;
-}
-
-.desenho-card:last-child {
-  margin-bottom: 50px;
 }
 
 .titulo-desenho {
